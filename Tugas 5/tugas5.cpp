@@ -3,16 +3,16 @@ using namespace std;
 
 int main()
 {
-	int a, t;
+	int q, t;
 
 	cout << "Gambar Bangun Datar ===========" << endl;
 	cout << "1. Kotak bolong" << endl;
 	cout << "2. Segitiga" << endl;
 	cout << "Pilih : ";
-	cin >> a;
+	cin >> q;
 	cout << endl;
 
-	switch(a){
+	switch(q){
 		case 1 :
 			int p, l;
 			cout << "Panjang : "; 
